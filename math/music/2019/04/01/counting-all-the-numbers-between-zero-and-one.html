@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang=" en" class="h-100"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.0 -->
+<title>Counting all the Numbers between Zero and One | Donny’s Blog</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Counting all the Numbers between Zero and One" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="One of my favorite songs of late is &amp;Run by Sir Sly. I discovered it around the time I started running, and it has a little gem buried in the chorus: ♫ I’m counting all the numbers between zero and one ♫ Sounds simple, right? 0… 1. That’s it. 1 However, this assumes that “numbers” only refers to whole numbers. What if we include fractions, decimals, and weird numbers like π? How many of those exist between zero and one? It turns out the answer is a lot. Think: infinity, but more. An argument could be made that even this is too much if “between” is not inclusive, but I digress. &#8617;" />
+<meta property="og:description" content="One of my favorite songs of late is &amp;Run by Sir Sly. I discovered it around the time I started running, and it has a little gem buried in the chorus: ♫ I’m counting all the numbers between zero and one ♫ Sounds simple, right? 0… 1. That’s it. 1 However, this assumes that “numbers” only refers to whole numbers. What if we include fractions, decimals, and weird numbers like π? How many of those exist between zero and one? It turns out the answer is a lot. Think: infinity, but more. An argument could be made that even this is too much if “between” is not inclusive, but I digress. &#8617;" />
+<link rel="canonical" href="http://localhost:4000/math/music/2019/04/01/counting-all-the-numbers-between-zero-and-one.html" />
+<meta property="og:url" content="http://localhost:4000/math/music/2019/04/01/counting-all-the-numbers-between-zero-and-one.html" />
+<meta property="og:site_name" content="Donny’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-04-01T18:00:00-04:00" />
+<script type="application/ld+json">
+{"description":"One of my favorite songs of late is &amp;Run by Sir Sly. I discovered it around the time I started running, and it has a little gem buried in the chorus: ♫ I’m counting all the numbers between zero and one ♫ Sounds simple, right? 0… 1. That’s it. 1 However, this assumes that “numbers” only refers to whole numbers. What if we include fractions, decimals, and weird numbers like π? How many of those exist between zero and one? It turns out the answer is a lot. Think: infinity, but more. An argument could be made that even this is too much if “between” is not inclusive, but I digress. &#8617;","@type":"BlogPosting","url":"http://localhost:4000/math/music/2019/04/01/counting-all-the-numbers-between-zero-and-one.html","headline":"Counting all the Numbers between Zero and One","dateModified":"2019-04-01T18:00:00-04:00","datePublished":"2019-04-01T18:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/math/music/2019/04/01/counting-all-the-numbers-between-zero-and-one.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="shortcut icon" type="image/png" href="/assets/theme/favicon.png"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Donny's Blog" /></head>
+<body class="d-flex flex-column h-100">
+
+<div class="container main-container flex-grow-1">
+    <div class="row py-3">
+        <div class="col-12 col-sm-5 col-md-4 px-5" id="sticky-sidebar">
+            <div class="sticky-top"><header class="site-sidebar" role="banner">
+
+    <div class="wrapper"><h1 class="text-center">
+            <a href="/">
+            Donny&#39;s Blog
+            </a>
+        </h1>
+        <div class="text-muted text-center">Articles about technology, curiosities, and life</div>
+
+
+        <!-- Optional sidebar information hidden by default on mobile -->
+        <div class="visible-xs d-sm-none text-center py-4">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#sidebar-optional-container">
+                <span class="sr-only">Toggle navigation and site information</span>
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+            </button>
+        </div>
+
+        <div id="sidebar-optional-container" class="sidebar-optional collapse">
+            <div class="text-center py-4"><img src="/assets/theme/avatar.png"
+                                               class="rounded-circle img-fluid"
+                                               style="width: 200px;"
+                                               alt="Photo of "></div>
+            <div class="text-center font-italic">Mingle a little folly with your wisdom; a little nonsense now and then is pleasant.</div>
+            <div class="text-right font-italic text-muted">- Horace</div><nav class="site-nav py-4">
+
+                <div class="trigger"></div>
+            </nav><div class="d-none d-sm-flex flex-column">
+                <h2>Follow me on...</h2><ul class="social-media-list"><li><a href="https://github.com/liquidsunshine">
+        <i class="fab fa-github"></i>
+        Github (<span class="username">liquidsunshine</span>)</a></li><li><a href="https://instagram.com/luxliquidus">
+        <i class="fab fa-instagram"></i>
+        <span class="username">Instagram (luxliquidus)</span></a></li><li><a href="https://www.linkedin.com/in/donald-hayward">
+        <i class="fab fa-linkedin"></i>
+        <span class="username">LinkedIn (donald-hayward)</span></a></li><li>
+        <a href="https://www.twitter.com/luxliquidus">
+            <i class="fab fa-twitter"></i>
+            Twitter (<span class="username">luxliquidus)</span>
+        </a>
+    </li><li><a href="/feed.xml">
+        <i class="fas fa-rss"></i>
+        <span>Blog RSS</span></a></li></ul>
+</div>
+        </div>
+
+
+    </div>
+</header>
+</div>
+        </div>
+        <div class="col px-5" id="main" aria-label="Content">
+            <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Counting all the Numbers between Zero and One</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-04-01T18:00:00-04:00" itemprop="datePublished">Apr 1, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>One of my favorite songs of late is <a href="https://www.youtube.com/watch?v=jdoR7E7b4Mo">&amp;Run</a> by Sir Sly.  I discovered it around the time I started running, and it has a little gem buried in the chorus:</p>
+<blockquote>
+  <p>♫ I’m counting all the numbers between zero and one ♫</p>
+</blockquote>
+
+<p>Sounds simple, right?  0… 1.  That’s it.  <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<p>However, this assumes that “numbers” only refers to <a href="https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-factors-and-multiples/whole-numbers-integers/a/whole-numbers-integers">whole numbers</a>.  What if we include fractions, decimals, and weird numbers like π?  How many of those exist between zero and one?</p>
+
+<p>It turns out the answer is a lot.  Think: infinity, but more.</p>
+
+<!--more-->
+
+<p>If you were taught by a good math teacher, you were taught that infinity is not a number; it is a concept representing something boundless – something larger than anything real that can be represented.</p>
+
+<p>If you were taught by a great math teacher, you were taught that there is more than one level of infinity.</p>
+
+<p>The first level of infinity represents that which can be counted – or rather, could be counted if you never stopped.  For example, consider whole numbers: 0, 1, 2, 3, 4, 5, 6, 7, …  If you go on counting forever, you will eventually reach all of them.  This also applies to integers, and even fractions if you are clever.</p>
+
+<p>However, not everything can be reduced to a countable list like this.  Consider the spaces between the whole numbers – how many <a href="https://simple.wikipedia.org/wiki/Real_number">real numbers</a> (including all whole numbers, fractions, irrational numbers, etc.) exist between each pair of them?  Infinite.  Uncountably infinite, in fact.  So many that you can’t even count them with whole numbers.  This <a href="https://www.youtube.com/watch?v=elvOZm0d4H0">video by Numberphile</a> goes into the gritty details of why this is true.</p>
+
+<p>But this brings us to the gem: <strong>it’s not possible to count the numbers between zero and one</strong>.  If you went on counting forever, you wouldn’t even get close.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>An argument could be made that even this is too much if <a href="http://mathworld.wolfram.com/StrictlyBetween.html">“between”</a> is not inclusive, but I digress. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div><a class="u-url" href="/math/music/2019/04/01/counting-all-the-numbers-between-zero-and-one.html" hidden></a>
+</article>
+
+        </div>
+    </div>
+</div>
+<div class="container main-container"><footer class="footer mt-auto py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-03T20:53:36-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Donny’s Blog</title><subtitle>Articles about technology, curiosities, and life</subtitle><entry><title type="html">Counting all the Numbers between Zero and One</title><link href="http://localhost:4000/math/music/2019/04/01/counting-all-the-numbers-between-zero-and-one.html" rel="alternate" type="text/html" title="Counting all the Numbers between Zero and One" /><published>2019-04-01T18:00:00-04:00</published><updated>2019-04-01T18:00:00-04:00</updated><id>http://localhost:4000/math/music/2019/04/01/counting-all-the-numbers-between-zero-and-one</id><content type="html" xml:base="http://localhost:4000/math/music/2019/04/01/counting-all-the-numbers-between-zero-and-one.html">&lt;p&gt;One of my favorite songs of late is &lt;a href=&quot;https://www.youtube.com/watch?v=jdoR7E7b4Mo&quot;&gt;&amp;amp;Run&lt;/a&gt; by Sir Sly.  I discovered it around the time I started running, and it has a little gem buried in the chorus:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;♫ I’m counting all the numbers between zero and one ♫&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sounds simple, right?  0… 1.  That’s it.  &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;However, this assumes that “numbers” only refers to &lt;a href=&quot;https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-factors-and-multiples/whole-numbers-integers/a/whole-numbers-integers&quot;&gt;whole numbers&lt;/a&gt;.  What if we include fractions, decimals, and weird numbers like π?  How many of those exist between zero and one?&lt;/p&gt;
+
+&lt;p&gt;It turns out the answer is a lot.  Think: infinity, but more.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;If you were taught by a good math teacher, you were taught that infinity is not a number; it is a concept representing something boundless – something larger than anything real that can be represented.&lt;/p&gt;
+
+&lt;p&gt;If you were taught by a great math teacher, you were taught that there is more than one level of infinity.&lt;/p&gt;
+
+&lt;p&gt;The first level of infinity represents that which can be counted – or rather, could be counted if you never stopped.  For example, consider whole numbers: 0, 1, 2, 3, 4, 5, 6, 7, …  If you go on counting forever, you will eventually reach all of them.  This also applies to integers, and even fractions if you are clever.&lt;/p&gt;
+
+&lt;p&gt;However, not everything can be reduced to a countable list like this.  Consider the spaces between the whole numbers – how many &lt;a href=&quot;https://simple.wikipedia.org/wiki/Real_number&quot;&gt;real numbers&lt;/a&gt; (including all whole numbers, fractions, irrational numbers, etc.) exist between each pair of them?  Infinite.  Uncountably infinite, in fact.  So many that you can’t even count them with whole numbers.  This &lt;a href=&quot;https://www.youtube.com/watch?v=elvOZm0d4H0&quot;&gt;video by Numberphile&lt;/a&gt; goes into the gritty details of why this is true.&lt;/p&gt;
+
+&lt;p&gt;But this brings us to the gem: &lt;strong&gt;it’s not possible to count the numbers between zero and one&lt;/strong&gt;.  If you went on counting forever, you wouldn’t even get close.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;An argument could be made that even this is too much if &lt;a href=&quot;http://mathworld.wolfram.com/StrictlyBetween.html&quot;&gt;“between”&lt;/a&gt; is not inclusive, but I digress. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">One of my favorite songs of late is &amp;amp;Run by Sir Sly. I discovered it around the time I started running, and it has a little gem buried in the chorus: ♫ I’m counting all the numbers between zero and one ♫ Sounds simple, right? 0… 1. That’s it. 1 However, this assumes that “numbers” only refers to whole numbers. What if we include fractions, decimals, and weird numbers like π? How many of those exist between zero and one? It turns out the answer is a lot. Think: infinity, but more. An argument could be made that even this is too much if “between” is not inclusive, but I digress. &amp;#8617;</summary></entry></feed>
