@@ -5,6 +5,10 @@
 @media screen and (max-width: 575px) {
   .sidebar-optional.show {
     display: block; } }
+/* Show a bit of margin even on very small screens */
+@media screen and (max-width: 575px) {
+  .container {
+    max-width: 95%; } }
 .navbar-toggle, .navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:focus {
   background: transparent;
   border: 0;
